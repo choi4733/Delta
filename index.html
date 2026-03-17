@@ -437,7 +437,9 @@
     <!-- //footer -->
 
     <!-- Top버튼 -->
-     <div class="top show"><i class="fa-solid fa-circle-up"></i></div>
+     <div class="top show">
+      <a href="#banner_bg"><i class="fa-solid fa-circle-up">
+      </i></a></div>
 
 <!--  jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -470,7 +472,7 @@
         }
 
         if(scrollTop>50){
-          $(".top").addClass("show");
+          $(".top").addClass("show");}else{
           $(".top").removeClass("show");
         }
       });
